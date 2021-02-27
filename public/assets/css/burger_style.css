@@ -1,0 +1,48 @@
+body{
+    text-align: center;
+}
+
+.lists{
+    display: inline-block;
+    vertical-align: text-top;
+    margin-left: 55px;
+    margin-right: 55px;
+}
+
+#submitBtn{
+    background-color: #c06a30;
+    color: white;
+    border: none;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    padding: 15px 25px 15px 25px;
+    border-radius: 4px;
+}
+
+.devourBtn{
+    background-color: #237036;
+    color: white;
+    border: none;
+    text-align: center;
+    text-decoration: none;
+    padding: 5px 15px 5px 15px;
+    border-radius: 4px;
+}
+
+#name{
+    padding: 12px 20px;
+    margin: 8px 0;
+    box-sizing: border-box;
+}
+
+.listTitle{
+    font-size: 18px;
+    font-family: 'georgia';
+    font-weight: bold;
+    text-align: center;
+}
+
+li{
+    margin-bottom: 5px;
+}
