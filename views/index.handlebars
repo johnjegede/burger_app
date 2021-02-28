@@ -20,7 +20,9 @@
     <ol>
         {{#each burgers}}
           {{#if devoured}}
-            <li data-id="{{id}}">{{burger_name}}</li>
+          <li data-id="{{id}}">
+            <p> <span>{{burger_name}}</span>  <span class= "burgerBtn"><button data-id="{{id}}" class="deleteBtn">Delete</button> </span> </p>
+            </li>
           {{/if}}
         {{/each}}
         

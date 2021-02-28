@@ -48,7 +48,7 @@ body {
   display: inline-block;
 }
 
-.devourBtn {
+.devourBtn, .deleteBtn {
   /* background-color: blue; */
   background-color: #5d6798;
   text-align: center;
@@ -60,6 +60,9 @@ body {
   border: none;
 }
 
+.deleteBtn {
+    background-color: red;
+}
 #name {
   box-sizing: border-box;
   padding: 12px 20px;
