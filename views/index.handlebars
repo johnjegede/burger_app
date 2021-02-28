@@ -1,3 +1,4 @@
+<div class = "burger">
 <h1>BURGER APP</h1>
 
 <div class="lists">
@@ -6,8 +7,8 @@
         {{#each burgers }}
            {{#unless devoured}}
               <li data-id="{{id}}">
-                {{burger_name}}
-                <button data-id="{{id}}" class="devourBtn">Devour!</button>
+                <p> <span>{{burger_name}}</span>  <span class= "burgerBtn"><button data-id="{{id}}" class="devourBtn">Devour it</button> </span> </p>
+               
               </li>
            {{/unless}}
         {{/each}}
@@ -20,7 +21,7 @@
         {{#each burgers}}
           {{#if devoured}}
             <li data-id="{{id}}">{{burger_name}}</li>
-        {{/if}}
+          {{/if}}
         {{/each}}
         
     </ol>
@@ -31,4 +32,5 @@
         <input type="text" id="name" placeholder="Burger name">
         <button type="submit" id="submitBtn">Submit</button>
     </form>
+</div>
 </div>
