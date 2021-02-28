@@ -6,7 +6,7 @@
 
 3.[How to use](#How-to-use)
 
-
+4.[Technologies Used](#Technologies-Used)
 
 # Description
 This is an app for listing the burgers a user will like to eat 
@@ -22,5 +22,13 @@ In the text area write the name of the burger you want then click submit. The bu
 
 ![Burger](public/assets/img/burger_app.PNG)
 
+# Technologies Used
+Model view controller (MVC) design
+
+
+Front end:HTML, CSS, JavaScript.
+
+
+Back end: Node js, Express js, Express handlebars, MySql, Object relation mapping (ORM).
 
 Enjoy this app.
